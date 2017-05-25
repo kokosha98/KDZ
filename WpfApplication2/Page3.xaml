@@ -11,7 +11,7 @@
 
     <Grid>
         
-        <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="0,0,-244,-80">
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
             <Grid Height="344">
                 <Label x:Name="label" Content="Марка компрессора:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="175"/>
                 <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="162"/>

@@ -67,5 +67,10 @@ namespace WpfApplication2
         {
             NavigationService.Navigate(new Page7(list));
         }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Page9(list));
+        }
     }
 }

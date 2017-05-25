@@ -10,7 +10,7 @@
 
     <Grid>
         
-        <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="0,0,8,-23">
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
             <Grid>
                 <Button x:Name="button" Content="Просмотреть список оборудования" HorizontalAlignment="Left" Margin="43,34,0,0" VerticalAlignment="Top" Width="207" Height="72" Click="button_Click_2"/>
                 <Button x:Name="button1" Content="Добавить оборудование"  HorizontalAlignment="Left" Margin="43,142,0,0" VerticalAlignment="Top" Width="207" Height="72" Click="button1_Click"/>

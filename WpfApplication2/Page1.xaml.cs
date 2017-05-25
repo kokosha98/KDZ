@@ -20,13 +20,13 @@ namespace WpfApplication2
     /// </summary>
     public partial class Page1 : Page
     {
-        Logins user;
+        List<Logins> users;
         List<Kompr> list;
 
-        public Page1(Logins user, List<Kompr> list)
+        public Page1(List<Logins> users, List<Kompr> list)
         {
             InitializeComponent();
-            this.user = user;
+            this.users = users;
             this.list = list;
         }
 
@@ -38,20 +38,26 @@ namespace WpfApplication2
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            
+            bool flag = false;
             try
             {
-                if (textBox.Text == user.Login && passwordBox.Password == user.Password)
+                for (int i = 0; i < users.Count; i++)
                 {
-                    Is_Logged.logged = true;
-                    //this.Hide();
-                    /*Window4 window4 = new Window4(list);
-                    window4.ShowDialog();*/
-                    //Main.
-                    NavigationService.Navigate(new Page4(list));
-                    //NavigationService.Navigate(new Uri("/Page2.xaml", UriKind.Relative));
+                    if (textBox.Text == users[i].Login && passwordBox.Password == users[i].Password)
+                    {
+                        Is_Logged.logged = true;
+                        //this.Hide();
+                        /*Window4 window4 = new Window4(list);
+                        window4.ShowDialog();*/
+                        //Main.
+                        flag = true;
+                        NavigationService.Navigate(new Page4(list));
+                        
+                        //NavigationService.Navigate(new Uri("/Page2.xaml", UriKind.Relative));
+                    }
+                    
                 }
-                else
+                if (!flag)
                     MessageBox.Show("Неправильно введён логин или пароль!");
             }
             catch (Exception)
@@ -68,6 +74,9 @@ namespace WpfApplication2
             NavigationService.Navigate(new Page4(list));
         }
 
-
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Page10(users));
+        }
     }
 }

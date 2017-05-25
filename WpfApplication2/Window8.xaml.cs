@@ -19,20 +19,20 @@ namespace WpfApplication2
     /// </summary>
     public partial class Window8 : Window
     {
-        Logins user;
+        List<Logins> users;
         List<Kompr> list;
 
         public Window8()
         {
             InitializeComponent();
-            user = new Logins("hseguest", "hsepassword");
+            users = new List<Logins>();            
             list = new List<Kompr>();
-            Main.NavigationService.Navigate(new Page1(user, list));
+            Main.NavigationService.Navigate(new Page1(users, list));
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //Main.Content = new Page1();
+            users.Add(new Logins("hseguest", "hsepassword"));
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

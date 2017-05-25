@@ -60,6 +60,9 @@
     <Compile Include="Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page10.xaml.cs">
+      <DependentUpon>Page10.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page2.xaml.cs">
       <DependentUpon>Page2.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,9 @@
     <Compile Include="Page8.xaml.cs">
       <DependentUpon>Page8.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page9.xaml.cs">
+      <DependentUpon>Page9.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window8.xaml.cs">
       <DependentUpon>Window8.xaml</DependentUpon>
     </Compile>
@@ -89,6 +95,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page10.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -117,6 +127,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Page8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page9.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

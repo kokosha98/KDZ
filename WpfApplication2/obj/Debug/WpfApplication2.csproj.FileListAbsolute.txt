@@ -28,3 +28,7 @@ C:\Users\YaMaha\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplica
 C:\Users\YaMaha\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\Page6.baml
 C:\Users\YaMaha\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\Page7.baml
 C:\Users\YaMaha\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\Page8.baml
+C:\Users\YaMaha\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\Page9.g.cs
+C:\Users\YaMaha\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\Page9.baml
+C:\Users\YaMaha\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\Page10.g.cs
+C:\Users\YaMaha\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\Page10.baml
