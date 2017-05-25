@@ -9,14 +9,14 @@ namespace WpfApplication2
     public class Kompr
     {
         string model;
-        double pressure;
-        double capacity;
-        double power;
-        double length;
-        double width;
-        double height;
+        uint pressure;
+        uint capacity;
+        uint power;
+        uint length;
+        uint width;
+        uint height;
 
-        public Kompr(string model, double pressure, double capacity, double power, double length, double width, double height)
+        public Kompr(string model, uint pressure, uint capacity, uint power, uint length, uint width, uint height)
         {
             this.model = model;
             this.pressure = pressure;
@@ -39,7 +39,7 @@ namespace WpfApplication2
             }
         }
 
-        public double Pressure
+        public uint Pressure
         {
             get
             {
@@ -51,7 +51,7 @@ namespace WpfApplication2
             }
         }
 
-        public double Capacity
+        public uint Capacity
         {
             get
             {
@@ -63,7 +63,7 @@ namespace WpfApplication2
             }
         }
 
-        public double Power
+        public uint Power
         {
             get
             {
@@ -75,7 +75,7 @@ namespace WpfApplication2
             }
         }
 
-        public double Length
+        public uint Length
         {
             get
             {
@@ -87,7 +87,7 @@ namespace WpfApplication2
             }
         }
 
-        public double Width
+        public uint Width
         {
             get
             {
@@ -99,7 +99,7 @@ namespace WpfApplication2
             }
         }
 
-        public double Height
+        public uint Height
         {
             get
             {
