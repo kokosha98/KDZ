@@ -35,7 +35,6 @@ namespace WpfApplication2
             {
                 comboBox.Items.Add(list[i].Model);
             }
-            comboBox.Items.Add("Все компрессоры");
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
